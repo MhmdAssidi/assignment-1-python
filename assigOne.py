@@ -25,6 +25,9 @@ print("The yearly cost for rent and electricity is: "+str(yearlyCostForElectAndR
 monthlySalarypoweredByTwo=salary**2
 print("Nabiha's total salary for the month raised to the power of 2 is: "+str(monthlySalarypoweredByTwo))
 
-
+additionalSavingAmount=int(print("enter an additional random amount: "))
+if additionalSavingAmount!=0 and savingsAmount!=0:
+    remainderFromAdditionalSavings = additionalSavingAmount%savingsAmount
+print("the remainder is: "+str(remainderFromAdditionalSavings))    
 
 
