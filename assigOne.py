@@ -16,6 +16,9 @@ totalAmountCombined=savingsAmount+rentAmount+electAmount
 
 print("The total amount Nabiha spends on savings, rent, and electricity combined is: "+str(totalAmountCombined))
 
+remainderOfSalary=salary-totalAmountCombined
+print("The remainder amount of Nabiha's salary after the expenses is: "+str(remainderOfSalary))
+
 
 
 
