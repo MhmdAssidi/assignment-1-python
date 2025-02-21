@@ -22,7 +22,8 @@ print("The remainder amount of Nabiha's salary after the expenses is: "+str(rema
 yearlyCostForElectAndRent=(rentAmount+electAmount)*12
 print("The yearly cost for rent and electricity is: "+str(yearlyCostForElectAndRent))
 
-
+monthlySalarypoweredByTwo=salary**2
+print("Nabiha's total salary for the month raised to the power of 2 is: "+str(monthlySalarypoweredByTwo))
 
 
 
