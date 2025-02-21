@@ -12,6 +12,11 @@ print("The amount allocated to savings is: "+str(savingsAmount))
 print("The amount allocated to rent is: "+str(rentAmount))
 print("The amount allocated to electricity is: "+str(electAmount))
 
+totalAmountCombined=savingsAmount+rentAmount+electAmount
+
+print("The total amount Nabiha spends on savings, rent, and electricity combined is: "+str(totalAmountCombined))
+
+
 
 
 
