@@ -19,6 +19,9 @@ print("The total amount Nabiha spends on savings, rent, and electricity combined
 remainderOfSalary=salary-totalAmountCombined
 print("The remainder amount of Nabiha's salary after the expenses is: "+str(remainderOfSalary))
 
+yearlyCostForElectAndRent=(rentAmount+electAmount)*12
+print("The yearly cost for rent and electricity is: "+str(yearlyCostForElectAndRent))
+
 
 
 
