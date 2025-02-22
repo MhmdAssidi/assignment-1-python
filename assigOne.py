@@ -8,7 +8,7 @@ savingsAmount=(savingsPercent/100)*salary
 rentAmount=(rentPercent/100)*salary
 electAmount=(electPercent/100)*salary
 
-print("The amount allocated to savings is: "+str(savingsAmount))
+print("The amount allocated to savings is: ",savingsAmount)
 print("The amount allocated to rent is: "+str(rentAmount))
 print("The amount allocated to electricity is: "+str(electAmount))
 
@@ -25,9 +25,9 @@ print("The yearly cost for rent and electricity is: "+str(yearlyCostForElectAndR
 monthlySalarypoweredByTwo=salary**2
 print("Nabiha's total salary for the month raised to the power of 2 is: "+str(monthlySalarypoweredByTwo))
 
-additionalSavingAmount=int(print("enter an additional random amount: "))
+additionalSavingAmount=int(input("enter an additional random amount: "))
 if additionalSavingAmount!=0 and savingsAmount!=0:
     remainderFromAdditionalSavings = additionalSavingAmount%savingsAmount
-print("the remainder is: "+str(remainderFromAdditionalSavings))    
+print("amount left is: "+str(remainderFromAdditionalSavings))    
 
 
